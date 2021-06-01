@@ -1,0 +1,12 @@
+.add{
+    background-color: var(--clr-chessable);
+    color: var(--clr-white);
+}
+
+@media screen and (min-width: 500px){
+
+    .add{
+      width: 300px;
+    }
+  
+  }

@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--clr-chessable);
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    justify-content: center;
+    border-right: white 1px solid;
+    padding: 20px;
+    width: 10%;
+    cursor: pointer;
+}
+
+.sections{
+    width: 90%;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    color:var(--clr-white);
+}
+
+.fa-bars{
+    color: var(--clr-white);
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.fa-shopping-cart{
+    font-size: 2rem;
+}
+
+.login{
+    background-color: #43bf82;
+      color: var(--clr-white);
+  }
+  
+  .signup{
+     background-color: #fff;
+      color: var(--clr-chessable);
+  }
+  .fas{
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 400px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+      }
+      .sections{
+        display: flex;
+        justify-content: flex-end;
+        width: 75%;
+      }
+    
+      .links{
+        display: flex;
+        align-items: center;
+      }
+    }
+  
+
+@media screen and (min-width: 500px){
+    .links{
+        margin-right: 20px;
+    }
+}
+

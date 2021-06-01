@@ -1,0 +1,9 @@
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    border: var(--clr-accent) 10px solid;
+    margin: 10px 40px;
+    justify-content: center;
+  }
+  
+  
